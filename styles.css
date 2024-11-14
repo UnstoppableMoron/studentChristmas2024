@@ -1,0 +1,53 @@
+/*Possible color schemes
+#efdfd7 pale beige, #c84d4e red, #869987 pale green, #c0ced7 dull blue-gray, #717d8a gray
+#0e0e0e black, #061e38 navy, #5d417c purple, #c93a72 magenta, #4370e7 blue
+#2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red*/
+
+#hero{
+    background-image: url(images/uselessCircle.avif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:bottom;
+    min-height:800px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2{
+    color: #d24c5d;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 6px #FFFFFF;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+}
+
+.header{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #000000;
+    background-color: ;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: center;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline
+}
+
+li{
+    padding: 30px;
+    font-size: 28px;
+}
