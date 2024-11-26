@@ -2,18 +2,19 @@
 #c0c0c0 silver, #c84d4e red, #869987 pale green, #c0ced7 dull blue-gray, #717d8a gray
 #0e0e0e black, #061e38 navy, #5d417c purple, #c93a72 magenta, #4370e7 blue
 #2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red*/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+    background-color: #c0c0c0;
+    margin:0px;
+    padding:0px;
+}
+html{
+    background-color: #c0c0c0;
 }
 
 #hero{
-    background-image: url(images/critmas.jpeg);
+    background-color: #c0c0c0;
     background-repeat:no-repeat;
-    background-size:cover;
+    width: 100%;
     background-position-y:bottom;
     min-height:1000px;
 }
@@ -32,9 +33,12 @@
     text-align: center;
 }
 
+.logo{
+    color: navy;
+}
+
 .container{
-    display: grid;
-    text-align: center;
+    background-color: #c0c0c0;
 }
 
 .header{
@@ -43,7 +47,6 @@
     border: 1px solid navy;
     background-color: #c0c0c0;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    border-radius: 5px;
     text-align: center;
 }
 
@@ -61,17 +64,14 @@ li{
     font-size: 28px;
 }
 
-.one{
-    grid-column: 1/3;
-    grid-row: 1/3;
+.col-sm{
+    padding: 200px;
 }
 
-.two{
-    grid-column: 2/3;
-    grid-row: 1/3;
+#dragon{
+    width: 240px;
 }
 
-.three{
-    grid-column: 3/3;
-    grid-row: 1/3;
+#seventeen{
+    background-color: #c0c0c0;
 }
