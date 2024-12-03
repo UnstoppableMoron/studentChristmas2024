@@ -3,11 +3,8 @@
 #0e0e0e black, #061e38 navy, #5d417c purple, #c93a72 magenta, #4370e7 blue
 #2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red*/
 body {
-    background-color: #c0c0c0;
     margin:0px;
     padding:0px;
-}
-html{
     background-color: #c0c0c0;
 }
 
@@ -28,17 +25,13 @@ html{
 .hero h2{
     color: navy;
     font-size: 1.8em;
-    text-shadow: 2px 2px 6px #FFFFFF;
+    text-shadow: 2px 2px 6p#000000;
     font-family: "Nosifer", sans-serif;
     text-align: center;
 }
 
 .logo{
     color: navy;
-}
-
-.container{
-    background-color: #c0c0c0;
 }
 
 .header{
@@ -65,13 +58,17 @@ li{
 }
 
 .col-sm{
-    padding: 200px;
+padding: 130px;
+}
+
+.container{
+    background-color: #c0c0c0;
+}
+
+.card{
+    margin-left: 0px;
 }
 
 #dragon{
-    width: 240px;
-}
-
-#seventeen{
-    background-color: #c0c0c0;
+    width: 300px;
 }
