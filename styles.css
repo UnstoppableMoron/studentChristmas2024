@@ -1,7 +1,7 @@
 /*Possible color schemes
 #c0c0c0 silver, #c84d4e red, #869987 pale green, #c0ced7 dull blue-gray, #717d8a gray
 #0e0e0e black, #061e38 navy, #5d417c purple, #c93a72 magenta, #4370e7 blue
-#2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red*/
+#2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red, #eec990 gold*/
 body {
     margin:0px;
     padding:0px;
@@ -65,10 +65,20 @@ padding: 130px;
     background-color: #c0c0c0;
 }
 
-.card{
-    margin-left: 0px;
+p, h3{
+    color: #c0c0c0;
 }
 
-#dragon{
-    width: 300px;
+.btn-primary{
+    color: navy;
+}
+
+.card{
+    margin: 0px;
+    background-color: navy;
+}
+
+.btn{
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
 }
