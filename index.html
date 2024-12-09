@@ -1,79 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport">
-        <title>Mery Chrimas</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media Card Grid</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <header class="header">
-            <h1 class="logo">Christmas 2024</h1>
-        </header>
-        <div class="hero"><img id="hero" src="images/crimatee.jpg">
-            <h2 class="hero"></h2>
-        </div>
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <div class="card" style="width: 18rem" id="dragon">
-                  <img src="images/sickassdragon.webp" alt="cool dragon">
-                  <div class="card-container">
-                    <p><b>A dragon</b></p>
-                    <p>dragons are really cool</p>
-                    <h4 class="btn btn-primary">nonsense text</h4> 
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="card" style="width: 18rem" id="lungi">
-                  <img src="images/lungi.png" alt="luigi">
-                  <div class="card-container">
-                    <p><b>Luigi</b></p>
-                    <p>I want him to be my friend (as everyone should)</p>
-                    <h4 class="btn btn-primary">nonsense text</h4> 
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="card" style="width: 18rem" id="somari">
-                  <img src="images/somari.png" alt="Mario and Sonic at the Olympic Winter Games for the Nintendo Wii">
-                  <div class="card-container">
-                    <p><b>Mario and Sonic at the Olympic Winter Games for the Nintendo Wii</b></p>
-                    <p>I played this game when I was like six</p>
-                    <h4 class="btn btn-primary">nonsense text</h4> 
-                  </div>
-                </div>
-              </div>
-            </div> 
-        </div>
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-            </div> 
-        </div>
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-            </div> 
-        </div>
-    </body>
+<body>
+
+    <main class="wrapper cards">
+
+        <!-- Media Cards Row 1 -->
+        <article class="card">
+            <header>
+                <h2>A dragon</h2>
+            </header>
+            <img src="images/sickassdragon.webp" alt="badass dragon">
+            <div class="content">
+                <p>Dude, dragons are sick as hell.</p>
+            </div>
+            <footer>
+                <h4>This is my footer</h4>
+                <button>Learn More</button>
+            </footer>
+        </article>
+
+        <article class="card">
+            <header>
+                <h2>This is my heading</h2>
+            </header>
+            <img src="images/lungi.png" alt="Hot air balloons">
+            <div class="content">
+                <p>The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago.</p>
+            </div>
+            <footer>
+                <h4>This is my footer</h4>
+                <button>Learn More</button>
+            </footer>
+        </article>
+
+        <article class="card">
+            <header>
+                <h2>This is my heading</h2>
+            </header>
+            <img src="images/maro-solk.jpg" alt="Hot air balloons">
+            <div class="content">
+                <p>The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago.</p>
+            </div>
+            <footer>
+                <h4>This is my footer</h4>
+                <button>Learn More</button>
+            </footer>
+        </article>
+    </main>
+
+</body>
 </html>
