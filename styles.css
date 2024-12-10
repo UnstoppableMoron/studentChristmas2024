@@ -1,11 +1,38 @@
 /*Possible color schemes
 #c0c0c0 silver, #c84d4e red, #869987 pale green, #c0ced7 dull blue-gray, #717d8a gray
 #0e0e0e black, #061e38 navy, #5d417c purple, #c93a72 magenta, #080bc6 blue
-#2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red, #ffd700 gold*/
+#2b5426 dark green, #b0d490 light green, #98ab9f beige, #f90606 red, #ffd700 gold
+#7BEA37 Luigi green #70D438 the definitive Luigi green #E89518 Dark gold #F8B026 Gold*/
 
 /* body rules  ****************/
+#hero{
+    background-color: #c0c0c0;
+    background-repeat:no-repeat;
+    width: 100%;
+    background-position-y:bottom;
+    min-height:1000px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2{
+    color: navy;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 6p#000000;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+}
+
+.logo{
+    color: navy;
+}
+
 body {
-    background-color: #fff;
+    background-color: #c0c0c0;
     color: #333;
     font-size: 1.2em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -16,6 +43,21 @@ body {
 img {
     max-width: 100%;
 }
+
+.header{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid navy;
+    background-color: #c0c0c0;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+.main-nav, h1{
+    list-style-type: none;
+    color: navy;
+}
+
 /* End of body rules **********/
 
 .wrapper {
@@ -29,7 +71,7 @@ img {
 article {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    border: 1px solid #c0c0c0;
+    border: 3px solid #080bc6;
     border-radius: 15px;
 }
 
@@ -72,6 +114,41 @@ article footer h4 {
 
 article footer button {
     display: inline-block;
+}
+
+#darg {
+    object-position: 50% 20%;
+}
+
+#hale {
+    object-position: 50% 10%;
+}
+
+.lungi {
+    color: #7BEA37 !important;
+}
+
+.somar{
+    font-size: 1.1em;
+}
+
+footer {
+    min-height: 50px;
+}
+
+footer button {
+    color: #c0c0c0;
+    background-color: #080bc6;
+}
+
+.buttonLeft {
+    margin-left: 120px;
+}
+
+.buttonRight {
+    float: right;
+    margin-right: 120px;
+    margin-top: 3px;
 }
 /* Styles for all cards *******************/
 
