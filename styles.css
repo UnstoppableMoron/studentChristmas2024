@@ -90,6 +90,7 @@ article {
 .card header h2 {
     text-align: center;
     color: #080bc6;
+    font-family: ;
 }
 
 .card img {
@@ -100,6 +101,7 @@ article {
 
 .content p {
     padding: 2% 3%;
+    color: #080bc6;
 }
 
 article footer {
@@ -120,25 +122,42 @@ article footer button {
     object-position: 50% 20%;
 }
 
-#hale {
+#mar {
     object-position: 50% 10%;
+}
+
+#bug {
+    object-position: 50% 60%;
+}
+
+#joel {
+    object-position: 50% 30%;
+}
+
+.content img {
+    height: 300px;
 }
 
 .lungi {
     color: #7BEA37 !important;
 }
 
-.somar{
-    font-size: 1.1em;
+.som{
+    font-size: 1em;
 }
 
 footer {
     min-height: 50px;
 }
 
-footer button {
+footer button, .content button {
     color: #c0c0c0;
     background-color: #080bc6;
+    border-radius: 15px;
+}
+
+.content button {
+    margin-top: 4px;
 }
 
 .buttonLeft {
@@ -149,6 +168,24 @@ footer button {
     float: right;
     margin-right: 120px;
     margin-top: 3px;
+}
+
+.buttonLeft .buttonRight {
+    border-radius: 10px;
+}
+
+.content p {
+    text-align: center;
+}
+
+.merienda-uniquifier {
+    font-family: "Merienda", serif;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.row3 {
+    height: 415px;
 }
 /* Styles for all cards *******************/
 

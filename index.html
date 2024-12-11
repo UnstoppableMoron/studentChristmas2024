@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Media Card Grid</title>
+        <title>Christmas 2024</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
     </head>
 <body>
     <header class="header">
-        <h1 class="logo">Christmas 2024</h1>
+        <h1 class="merienda-uniquifier" class="logo">Christmas Wishlist 2024</h1>
     </header>
     <div class="hero"><img id="hero" src="images/crimatee.jpg">
         <h2 class="hero"></h2>
@@ -18,25 +21,25 @@
         <!-- Media Cards Row 1 -->
         <article class="card">
             <header>
-                <h2>A dragon</h2>
+                <h2 class="merienda-uniquifier">A dragon</h2>
             </header>
             <img id="darg" src="images/sickassdragon.webp" alt="badass dragon">
             <div class="content">
-                <p>Dude, dragons are sick as hell.</p>
+                <p class="merienda-uniquifier">Dude, dragons are sick as hell.</p>
             </div>
             <footer>
-                <button class="buttonLeft">Learn More</button>
+                <a href="dragon.html"><button class="buttonLeft">Learn More</button></a>
                 <button class="buttonRight">Purchasing</button>
             </footer>
         </article>
 
         <article class="card">
             <header>
-                <h2 class="lungi">Luigi</h2>
+                <h2 class="merienda-uniquifier" class="lungi">Luigi</h2>
             </header>
             <img src="images/lungi.png" alt="luigi">
             <div class="content">
-                <p>I want him to be my friend. (As everyone should.)</p>
+                <p class="merienda-uniquifier">I want him to be my friend. <br>(As everyone should.)</p>
             </div>
             <footer>
                 <button class="buttonLeft">Learn More</button>
@@ -46,11 +49,11 @@
 
         <article class="card">
             <header>
-                <h2 class="somar">Mario & Sonic at the Olympic Winter <br>Games for the Nintendo Wii</h2>
+                <h2 class="merienda-uniquifier" id="mar" class="somar">Mario & Sonic at the Olympic Winter <br>Games for the Nintendo Wii</h2>
             </header>
-            <img src="images/maro-solk.jpg" alt="Hot air balloons">
+            <img src="images/somari.png" alt="Mario & Sonic at the Olympic Winter Games">
             <div class="content">
-                <p>I played this game when I was like six.</p>
+                <p class="merienda-uniquifier">I played this game when I was like six.</p>
             </div>
             <footer>
                 
@@ -62,11 +65,11 @@
         <!-- Media Cards Row 2 -->
         <article class="card">
             <header>
-                <h2>Cheesecake</h2>
+                <h2 class="merienda-uniquifier">Cheesecake</h2>
             </header>
             <img src="images/cheesecake.avif" alt="Cheesecake">
             <div class="content">
-                <p>I love cheesecake.</p>
+                <p class="merienda-uniquifier">I love cheesecake.</p>
             </div>
             <footer>
                 <button class="buttonLeft">Learn More</button>
@@ -76,73 +79,59 @@
 
         <article class="card">
             <header>
-                <h2 class="somar">For Elon to have never bought <br>Twiiter (I refuse to call it X)</h2>
+                <h2 id="lon" class="merienda-uniquifier" class="somar">For Elon to have never bought <br>Twitter (I refuse to call it X)</h2>
             </header>
-            <img src="images/moronic.webp" alt="Elon Musk buying Twitter">
             <div class="content">
-                <p>I want him to be my friend. (As everyone should.)</p>
-            </div>
-            <footer>
+                <img src="images/moronic.webp" alt="Elon Musk buying Twitter">
                 <button class="buttonLeft">Learn More</button>
                 <button class="buttonRight">Purchasing</button>
-            </footer>
+            </div>
         </article>
 
         <article class="card">
             <header>
-                <h2 class="somar">For Joel to shut the fuck up</h2>
+                <h2 class="merienda-uniquifier" class="somar">For Joel to shut the fuck up</h2>
             </header>
-            <img src="images/maro-solk.jpg" alt="Hot air balloons">
             <div class="content">
-                <p>I played this game when I was like six.</p>
-            </div>
-            <footer>
+                <img id="joel" src="images/joel.jpg" alt="Joel">
                 <button class="buttonLeft">Learn More</button>
                 <button class="buttonRight">Purchasing</button>
-            </footer>
+            </div>
+            
         </article>
 
         <!-- Media Cards Row 3 -->
-        <article class="card">
+        <article class="row3" class="card">
             <header>
-                <h2>Silksong</h2>
+                <h2 class="merienda-uniquifier">Silksong</h2>
             </header>
-            <img src="images/silksong.jpeg" alt="Silksong">
             <div class="content">
-                <p>PLEEEAAAASE GIVE ME THIS GAME</p>
-            </div>
-            <footer>
+                <img src="images/silksong.jpeg" alt="Silksong">
                 <button class="buttonLeft">Learn More</button>
                 <button class="buttonRight">Purchasing</button>
-            </footer>
+            </div>
         </article>
 
-        <article class="card">
+        <article class="row3" class="card">
             <header>
-                <h2>Saxton Hale Team Fortress 2</h2>
+                <h2 class="merienda-uniquifier">Bug</h2>
             </header>
-            <img id="hale" src="images/hale.webp" alt="luigi">
             <div class="content">
-                <p>I want him to be my friend. (As everyone should.)</p>
-            </div>
-            <footer>
+                <img id="bug" src="images/bug.png" alt="Bug">
                 <button class="buttonLeft">Learn More</button>
                 <button class="buttonRight">Purchasing</button>
-            </footer>
+            </div>
         </article>
 
-        <article class="card">
+        <article class="row3" class="card">
             <header>
-                <h2 class="somar">Mario & Sonic at the Olympic Winter <br>Games for the Nintendo Wii</h2>
+                <h2 class="merienda-uniquifier">KFC Spicy Chicken Sandwich</h2>
             </header>
-            <img src="images/maro-solk.jpg" alt="Hot air balloons">
             <div class="content">
-                <p>I played this game when I was like six.</p>
-            </div>
-            <footer>
+                <img src="images/samich.png" alt="KFC spicy chicken sandwich">
                 <button class="buttonLeft">Learn More</button>
                 <button class="buttonRight">Purchasing</button>
-            </footer>
+            </div>
         </article>
     </main>
 </body>
