@@ -124,6 +124,12 @@ article footer button {
 
 #mar {
     object-position: 50% 10%;
+    height: 300px;
+    width: 600px;
+}
+
+#lon {
+    height: 330px;
 }
 
 #bug {
@@ -131,7 +137,8 @@ article footer button {
 }
 
 #joel {
-    object-position: 50% 30%;
+    width: 600px;
+    height: 300px;
 }
 
 .content img {
@@ -174,18 +181,32 @@ footer button, .content button {
     border-radius: 10px;
 }
 
-.content p {
-    text-align: center;
-}
-
 .merienda-uniquifier {
     font-family: "Merienda", serif;
     font-style: normal;
     font-size: 1.1em;
 }
 
+.musk {
+    height: 200px;
+}
+
 .row3 {
     height: 415px;
+}
+
+.row4 {
+    height: 400px;
+
+}
+
+.fuck {
+    margin-top: -10px;
+}
+
+header h2 {
+    color: #080bc6;
+    text-align: center;
 }
 /* Styles for all cards *******************/
 
