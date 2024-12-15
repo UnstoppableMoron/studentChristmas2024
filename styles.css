@@ -167,6 +167,10 @@ footer button, .content button {
     margin-top: 4px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .buttonLeft {
     margin-left: 120px;
 }
@@ -192,11 +196,11 @@ footer button, .content button {
 }
 
 .row3 {
-    height: 415px;
+    height: 405px;
 }
 
 .row4 {
-    height: 400px;
+    height: 405px;
 
 }
 
