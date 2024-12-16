@@ -53,9 +53,19 @@ img {
     text-align: center;
 }
 
+.hero1 {
+    width: 50%;
+    height: 1000px;
+    border: 1px solid navy;
+}
+
 .main-nav, h1{
     list-style-type: none;
     color: navy;
+}
+
+.dargText {
+    float: right;
 }
 
 /* End of body rules **********/
@@ -172,7 +182,7 @@ button:hover {
 }
 
 .buttonLeft {
-    margin-left: 120px;
+    margin-left: 40%;
 }
 
 .buttonRight {
@@ -219,6 +229,15 @@ header h2 {
 /* End All Cards Styles *******************/
 
 /* Tablet Media Query */
+@media screen and (min-width: 480px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+
 @media screen and (min-width: 764px) {
     .wrapper {
         display: grid;
