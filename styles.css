@@ -20,7 +20,7 @@
 }
 
 .hero h2{
-    color: navy;
+    color: #080bc6;
     font-size: 1.8em;
     text-shadow: 2px 2px 6p#000000;
     font-family: "Nosifer", sans-serif;
@@ -28,7 +28,11 @@
 }
 
 .logo{
-    color: navy;
+    color: #080bc6;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -40,31 +44,105 @@ body {
     margin: 0;
 }
 
+@media screen and (min-width: 600px) {
+{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 5%;
+    }
+  }
+
+.container div{
+    height: 707px;
+}
+
 img {
     max-width: 100%;
 }
 
-.header{
+button h2 {
+    margin-top: 5px;
+    color: #c0c0c0;
+}
+
+.header {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid navy;
+    border: 1px solid #080bc6;
     background-color: #c0c0c0;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     text-align: center;
 }
 
 .hero1 {
-    width: 50%;
-    height: 1000px;
-    border: 1px solid navy;
+    width: 99.87%;
+    height: 667px;
+    border: 1px solid #080bc6;
+    background-size: 25%;
+    background-image: url(images/sickassdragon.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.hero2 {
+    width: 99.87%;
+    height: 667px;
+    border: 1px solid #080bc6;
+    background-size: 25%;
+    background-image: url(images/lungi.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.hero3 {
+    width: 99.87%;
+    height: 667px;
+    border: 1px solid #080bc6;
+    background-size: 25%;
+    background-image: url(images/somari.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 
 .main-nav, h1{
     list-style-type: none;
-    color: navy;
+    color: #080bc6;
 }
 
 .dargText {
+    margin-left: 800px;
+    border: 3px solid #080bc6;
+    border-radius: 6px;
+    background-color: #c0c0c0;
+    color: #080bc6;
+    padding: 10px;
+    width: 500px;
+    margin-top: 150px;
+}
+
+.itemButton {
+    float: right;
+    margin-right: 280px;
+    width: 200px;
+    height: 40px;
+    background-color: #080bc6;
+    border: 3px solid #706c6c;
+    border-radius: 30px;
+}
+
+.itemButton:active, .homeButton:active{
+    border: 3px solid #3f3e3e;
+    background-color: rgb(14, 14, 145);
+}
+
+.homeButton {
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 200px;
+    height: 40px;
+    background-color: #080bc6;
+    border: 3px solid #706c6c;
+    border-radius: 30px;
     float: right;
 }
 
@@ -183,12 +261,6 @@ button:hover {
 
 .buttonLeft {
     margin-left: 40%;
-}
-
-.buttonRight {
-    float: right;
-    margin-right: 120px;
-    margin-top: 3px;
 }
 
 .buttonLeft .buttonRight {
