@@ -5,7 +5,7 @@
 #7BEA37 Luigi green #70D438 the definitive Luigi green #E89518 Dark gold #F8B026 Gold*/
 
 /* body rules  ****************/
-#hero{
+#hero {
     background-color: #c0c0c0;
     background-repeat:no-repeat;
     width: 100%;
@@ -13,13 +13,13 @@
     min-height:1000px;
 }
 
-.hero{
+.hero {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero h2{
+.hero h2 {
     color: #080bc6;
     font-size: 1.8em;
     text-shadow: 2px 2px 6p#000000;
@@ -27,8 +27,14 @@
     text-align: center;
 }
 
-.logo{
+.logo {
     color: #080bc6;
+    margin-left: 200px;
+}
+
+.logoIndex {
+    color: #080bc6;
+    margin-left: 200px;
 }
 
 a {
@@ -43,14 +49,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
-@media screen and (min-width: 600px) {
-{
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      column-gap: 5%;
-    }
-  }
 
 .container div{
     height: 707px;
@@ -104,9 +102,20 @@ button h2 {
     background-repeat: no-repeat;
 }
 
+.hero4 {
+    width: 99.87%;
+    height: 667px;
+    border: 1px solid #080bc6;
+    background-size: 25%;
+    background-image: url(images/cheesecake.avif);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
 .main-nav, h1{
     list-style-type: none;
     color: #080bc6;
+    display: inline-block;
 }
 
 .dargText {
@@ -146,6 +155,20 @@ button h2 {
     float: right;
 }
 
+.santaButton {
+    float: right;
+    margin-top: 7px;
+    margin-right: 150px;
+    background-color: #c30d0d;
+    font-weight: 200;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.sana {
+    color: #c0c0c0;
+}
 /* End of body rules **********/
 
 .wrapper {
