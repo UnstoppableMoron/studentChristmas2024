@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 3px solid #080bc6;
 }
 
 .hero h2 {
@@ -50,7 +51,18 @@ body {
     margin: 0;
 }
 
-.container div{
+footer {
+    height: 100px;
+    text-align: center;
+    border-top: 3px solid #080bc6;
+}
+
+h6 {
+    margin-top: 41px;
+    color: #080bc6;
+}
+
+.container div {
     height: 707px;
 }
 
@@ -75,41 +87,76 @@ button h2 {
 .hero1 {
     width: 99.87%;
     height: 667px;
-    border: 1px solid #080bc6;
-    background-size: 25%;
     background-image: url(images/sickassdragon.webp);
     background-size: 50%;
     background-repeat: no-repeat;
+    position: absolute;
 }
 
 .hero2 {
     width: 99.87%;
     height: 667px;
-    border: 1px solid #080bc6;
-    background-size: 25%;
     background-image: url(images/lungi.png);
     background-size: 50%;
     background-repeat: no-repeat;
+    position: absolute;
 }
 
 .hero3 {
     width: 99.87%;
     height: 667px;
-    border: 1px solid #080bc6;
-    background-size: 25%;
     background-image: url(images/somari.png);
     background-size: 50%;
     background-repeat: no-repeat;
+    position: absolute;
 }
 
 .hero4 {
     width: 99.87%;
     height: 667px;
-    border: 1px solid #080bc6;
-    background-size: 25%;
     background-image: url(images/cheesecake.avif);
     background-size: 50%;
     background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero5 {
+    width: 99.87%;
+    height: 667px;
+    background-image: url(images/moronic.webp);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero6 {
+    width: 99.87%;
+    height: 667px;
+    background-image: url(images/joel.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero7 {
+    background-image: url(images/silksong.jpeg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero8 {
+    background-image: url(images/bug.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero9 {
+    background-image: url(images/samich.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 
 .main-nav, h1{
@@ -153,12 +200,17 @@ button h2 {
     border: 3px solid #706c6c;
     border-radius: 30px;
     float: right;
+
+}
+
+.silkButton {
+    margin-left: 955px !important;
 }
 
 .santaButton {
     float: right;
     margin-top: 7px;
-    margin-right: 150px;
+    margin-right: 50px;
     background-color: #c30d0d;
     font-weight: 200;
     height: 44px;
