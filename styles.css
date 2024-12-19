@@ -127,7 +127,7 @@ button h2 {
 .hero5 {
     width: 99.87%;
     height: 667px;
-    background-image: url(images/moronic.webp);
+    background-image: url(images/flower.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
     position: absolute;
@@ -395,10 +395,7 @@ header h2 {
 
 /* Tablet Media Query */
 @media screen and (max-width: 763px) {
-    
-    body{
-        background-color: #080bc6;
-    }
+
 
     .column1, .column2 {
         width: 100%;
