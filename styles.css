@@ -5,6 +5,10 @@
 #7BEA37 Luigi green #70D438 the definitive Luigi green #E89518 Dark gold #F8B026 Gold*/
 
 /* body rules  ****************/
+* {
+    box-sizing: border-box;
+}
+
 #hero {
     background-color: #c0c0c0;
     background-repeat:no-repeat;
@@ -166,7 +170,7 @@ button h2 {
 }
 
 .dargText {
-    margin-left: 800px;
+    margin-left: 880px;
     border: 3px solid #080bc6;
     border-radius: 6px;
     background-color: #c0c0c0;
@@ -361,13 +365,27 @@ button:hover {
 
 }
 
-.fuck {
+.move {
     margin-top: -10px;
 }
 
 header h2 {
     color: #080bc6;
     text-align: center;
+}
+
+.row {
+    display: flex;
+}
+  
+.column1 {
+    width: 25%;
+    float: left;
+}
+
+.column2 {
+    width: 75%;
+    float: left;
 }
 /* Styles for all cards *******************/
 
@@ -376,16 +394,19 @@ header h2 {
 /* End All Cards Styles *******************/
 
 /* Tablet Media Query */
-@media screen and (min-width: 480px) {
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(230px, 1fr));
-        grid-gap: 20px;
-        padding: 20px;
+@media screen and (max-width: 763px) {
+    
+    body{
+        background-color: #080bc6;
     }
+
+    .column1, .column2 {
+        width: 100%;
+    }
+
 }
 
-@media screen and (min-width: 764px) {
+@media screen and (min-width: 764px) and (max-width: 1279px) {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(2, minmax(230px, 1fr));
